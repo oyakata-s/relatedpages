@@ -1,0 +1,142 @@
+@charset "UTF-8";
+/*
+ * 管理画面用スタイルシート
+ */
+
+@keyframes updating {
+	0% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0.5;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+#relatedp-setting h2:before {
+	margin-right: 0.5em;
+	font-family: "FontAwesome";
+	content: "\f0ad";
+}
+
+#relatedp-setting h3 {
+	padding-left: 1.0em;
+	border-left: 10px solid #333;
+}
+
+#relatedp-setting input[type=text] {
+	width: 100%;
+}
+#relatedp-setting input[name=relatedp_default_img] {
+	width: 80%;
+	min-width: 300px;
+}
+#relatedp-setting textarea {
+	width: 100%;
+}
+
+#relatedp-setting p.description {
+	font-style: oblique;
+}
+
+/*自動設定*/
+#update_posts .update_status {
+	display: none;
+}
+
+/*特徴語設定*/
+#feature_type .description {
+	display: none;
+}
+#relatedp_keyphrase:checked ~ .description.keyphrase {
+	display: block;
+}
+#relatedp_parse:checked ~ .description.parse {
+	display: block;
+}
+
+#relatedp_update_posts.updating {
+	animation: updating 2s ease-in-out infinite;
+}
+
+/*メディアアップロード*/
+#media-upload .btn-control {
+	margin: 10px 0;
+}
+
+#media {
+	position: relative;
+	width: auto;
+	max-width: 320px;
+	height: 240px;
+	margin-top: 1.0rem;
+	border: 3px solid #ccc;
+	border-radius: 5px;
+	text-align: center;
+	overflow: hidden;
+}
+#media img {
+	width: auto;
+	height: 100%;
+}
+#media p {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 1.0em;
+	margin: auto;
+	color: #ccc;
+}
+
+/*#style-set*/
+#style-set label {
+	width: 200px;
+}
+
+#style-set input[type=text] {
+	width: 50%;
+}
+#style-set select {
+	width: 50%;
+}
+
+/*#preview*/
+#preview .output {
+	margin-bottom: 2.0rem;
+	padding: 5px 10px;
+	background-color: #fff;
+	box-shadow: 0 0 7px -2px #333 inset;
+	box-sizing: border-box;
+}
+
+#preview .source {
+	width: 100%;
+	margin-bottom: 1.0rem;
+	padding: 10px;
+	box-shadow: 0 1px 5px -2px #333 inset;
+	box-sizing: border-box;
+	overflow-x: scroll;
+}
+
+#preview h3 {
+	padding-left: 0;
+	border-left: none;
+}
+#preview h4 {
+	margin: 1.0em;
+}
+#preview pre {
+	margin: 0;
+}
+#preview .code {
+	display: block;
+	background-color: transparent;
+}
+
+#preview .hidden {
+	display: block !important;
+}

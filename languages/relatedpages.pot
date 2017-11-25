@@ -1,0 +1,181 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Something Related Pages\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-11-08 11:18+0000\n"
+"POT-Revision-Date: Wed Aug 16 2017 21:01:19 GMT+0900 (JST)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/inc/admin.php:35
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/inc/admin.php:44
+msgid "Feature Words"
+msgstr ""
+
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/inc/admin.php:79
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/inc/admin.php:80
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:2
+msgid "Related Pages Setting"
+msgstr ""
+
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:9
+msgid "Setup"
+msgstr ""
+
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:12
+msgid "How to Use"
+msgstr ""
+
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:15
+msgid "Use ShortCode"
+msgstr ""
+
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:19
+msgid "Or write the following code in a template."
+msgstr ""
+
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:63
+msgid "Setting: Basic"
+msgstr ""
+
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:66
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:68
+msgid "Heading Text"
+msgstr ""
+
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:68
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/related_pages.php:8
+msgid "Related Pages"
+msgstr ""
+
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:73
+msgid "Number of similar Post to display"
+msgstr ""
+
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:92
+msgid "Setting: Advance"
+msgstr ""
+
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:95
+msgid "Post Type"
+msgstr ""
+
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:108
+msgid "Type related post where is displayed"
+msgstr ""
+
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:113
+msgid "Only the same type"
+msgstr ""
+
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:116
+msgid "Show only the same type"
+msgstr ""
+
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:122
+msgid "Default Image URL"
+msgstr ""
+
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:123
+msgid "Default image in case there is no image in the post."
+msgstr ""
+
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:139
+msgid "Setting: Style"
+msgstr ""
+
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:142
+msgid "Set Class/Tag"
+msgstr ""
+
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:144
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:145
+msgid "Container Class"
+msgstr ""
+
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:146
+msgid "Heading Tag"
+msgstr ""
+
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:160
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:161
+msgid "Heading Class"
+msgstr ""
+
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:162
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:163
+msgid "Grouping Class"
+msgstr ""
+
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:164
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:165
+msgid "Element Class"
+msgstr ""
+
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:171
+msgid "CSS Custom"
+msgstr ""
+
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:172
+msgid "Edit CSS directly"
+msgstr ""
+
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:176
+msgid "Use following css"
+msgstr ""
+
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:183
+msgid "Plsease enter custom css code here."
+msgstr ""
+
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:191
+msgid "Preview"
+msgstr ""
+
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:193
+msgid "Display on Browser"
+msgstr ""
+
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:195
+msgid "Output HTML"
+msgstr ""
+
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/related_pages.php:29
+msgid "There is no related pages."
+msgstr ""
+
+#. Name of the plugin
+msgid "Something Related Pages"
+msgstr ""
+
+#. Description of the plugin
+msgid "Related Pages plugin"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://github.com/oyakata-s/relatedpages"
+msgstr ""
+
+#. Author of the plugin
+msgid "oyakata-s"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://something-25.com"
+msgstr ""
