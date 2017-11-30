@@ -119,13 +119,13 @@ function relatedp_admin_print_style() {
 function relatedp_admin_enqueue_script( $hook_suffix ) {
 	if ($hook_suffix == 'settings_page_plugin_relatedp_options') {
 		wp_enqueue_media();
-		wp_enqueue_script( 'plugin-admin_script',
+		wp_enqueue_script( 'relatedp-admin_script',
 			RELATEDP_DIR_URL.'js/admin_script.js',
 			array('jquery'), get_relatedp_version());
-		wp_enqueue_script( 'plugin-update-posts',
+		wp_enqueue_script( 'relatedp-update-posts',
 			RELATEDP_DIR_URL.'js/update_posts.js',
 			array('jquery'), get_relatedp_version());
-		wp_enqueue_script( 'plugin-image-upload',
+		wp_enqueue_script( 'relatedp-image-upload',
 			RELATEDP_DIR_URL.'js/media_upload.js',
 			array('media-upload'), get_relatedp_version());
 	}

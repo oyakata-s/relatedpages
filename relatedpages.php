@@ -3,7 +3,7 @@
  * Plugin Name: Something Related Pages
  * Plugin URI: https://github.com/oyakata-s/relatedpages
  * Description: Related Pages plugin
- * Version: 0.9
+ * Version: 0.9.1
  * Author: oyakata-s
  * Author URI: http://something-25.com
  *
