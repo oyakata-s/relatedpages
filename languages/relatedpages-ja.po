@@ -2,12 +2,12 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Something Related Pages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-08 11:18+0000\n"
-"PO-Revision-Date: 2017-11-08 11:19+0000\n"
+"POT-Creation-Date: 2018-05-21 11:29+0000\n"
+"PO-Revision-Date: 2018-05-21 11:29+0000\n"
 "Last-Translator: satohru <satohru_f@yahoo.co.jp>\n"
-"Language-Team: Japanese\n"
+"Language-Team: 日本語\n"
 "Language: ja\n"
-"Plural-Forms: nplurals=1; plural=0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,15 +20,156 @@ msgstr ""
 "esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
 "esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
 "X-Loco-Target-Locale: ja_JP\n"
-"X-Generator: Loco - https://localise.biz/"
+"X-Generator: Loco https://localise.biz/"
 
-#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:183
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/relatedpages.php:113
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/relatedpages.php:114
+msgid "Feature Words"
+msgstr "特徴語"
+
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/inc/setting.php:27
+msgid "Related Pages"
+msgstr "関連ページ"
+
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/inc/setting.php:56
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/inc/setting.php:57
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedpages.php:7
+msgid "Related Pages Setting"
+msgstr "関連ページ設定"
+
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/inc/setting.php:101
+msgid "Updating..."
+msgstr "更新中…"
+
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/inc/setting.php:102
+msgid "Updated"
+msgstr "更新しました"
+
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/inc/setting.php:103
+msgid " pages are updated!"
+msgstr "ページを更新しました！"
+
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedpages.php:18
+msgid "Text Analysis Setup"
+msgstr "テキスト解析設定"
+
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedpages.php:19
+msgid "Basic Settings"
+msgstr "基本設定"
+
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedpages.php:20
+msgid "Style Settings"
+msgstr "スタイル設定"
+
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedpages.php:21
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedpages.php:212
+msgid "Shortcode"
+msgstr "ショートコード"
+
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedpages.php:66
+msgid "Post Type"
+msgstr "投稿タイプ"
+
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedpages.php:79
+msgid "Type related post where is displayed"
+msgstr "関連するページとして表示する投稿タイプ"
+
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedpages.php:84
+msgid "Only the same type"
+msgstr "同じ投稿タイプのみ"
+
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedpages.php:87
+msgid " Show only the same type"
+msgstr "同じ投稿タイプのみ関連ページとして表示します"
+
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedpages.php:93
+msgid "Default Image URL"
+msgstr "デフォルト画像"
+
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedpages.php:94
+msgid "Default image in case there is no image in the post."
+msgstr "ページに画像が存在しない場合のデフォルトイメージを設定します"
+
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedpages.php:109
+msgid "Automatically add"
+msgstr "自動追加"
+
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedpages.php:112
+msgid "Automatically add to the_content"
+msgstr "the_contentに自動で追加します"
+
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedpages.php:121
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedpages.php:123
+msgid "Heading Text"
+msgstr "見出しテキスト"
+
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedpages.php:128
+msgid "Number of similar Post to display"
+msgstr "関連ページ表示数"
+
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedpages.php:146
+msgid "Set Class/Tag"
+msgstr "Class/Tag"
+
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedpages.php:148
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedpages.php:149
+msgid "Container Class"
+msgstr "コンテナClass"
+
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedpages.php:150
+msgid "Heading Tag"
+msgstr "見出しTag"
+
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedpages.php:164
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedpages.php:165
+msgid "Heading Class"
+msgstr "見出しClass"
+
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedpages.php:166
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedpages.php:167
+msgid "Grouping Class"
+msgstr "グループ化Class"
+
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedpages.php:168
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedpages.php:169
+msgid "Element Class"
+msgstr "ページClass"
+
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedpages.php:175
+msgid "CSS Custom"
+msgstr "CSSカスタム"
+
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedpages.php:176
+msgid "Edit CSS directly"
+msgstr "CSSを直接編集します"
+
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedpages.php:180
+msgid "Use following css"
+msgstr "次のCSSを適用"
+
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedpages.php:190
 msgid "Plsease enter custom css code here."
 msgstr "ここにCSSを入力してください"
+
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedpages.php:196
+msgid "Preview"
+msgstr "プレビュー"
+
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedpages.php:200
+msgid "Output HTML"
+msgstr "出力HTML"
+
+#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedpages.php:234
+msgid "Template Tag"
+msgstr "テンプレートタグ"
 
 #. Name of the plugin
 msgid "Something Related Pages"
 msgstr ""
+
+#. Description of the plugin
+msgid "Related Pages plugin"
+msgstr "関連ページを表示するプラグイン"
 
 #. URI of the plugin
 msgid "https://github.com/oyakata-s/relatedpages"
@@ -38,143 +179,6 @@ msgstr ""
 msgid "oyakata-s"
 msgstr ""
 
-#. URI of the plugin
-msgid "http://something-25.com"
+#. Author URI of the plugin
+msgid "https://something-25.com"
 msgstr ""
-
-#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/inc/admin.php:35
-#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/inc/admin.php:44
-msgid "Feature Words"
-msgstr "特徴語"
-
-#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/inc/admin.php:79
-#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/inc/admin.php:80
-#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:2
-msgid "Related Pages Setting"
-msgstr "関連ページ設定"
-
-#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:9
-msgid "Setup"
-msgstr "セットアップ"
-
-#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:12
-msgid "How to Use"
-msgstr "使い方"
-
-#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:15
-msgid "Use ShortCode"
-msgstr "ショートコード"
-
-#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:19
-msgid "Or write the following code in a template."
-msgstr "または次のコードをテンプレートに記述してください"
-
-#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:63
-msgid "Setting: Basic"
-msgstr "基本設定"
-
-#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:66
-#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:68
-msgid "Heading Text"
-msgstr "見出しテキスト"
-
-#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:68
-#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/related_pages.php:8
-msgid "Related Pages"
-msgstr "関連ページ"
-
-#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:73
-msgid "Number of similar Post to display"
-msgstr "関連ページ表示数"
-
-#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:92
-msgid "Setting: Advance"
-msgstr "詳細設定"
-
-#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:95
-msgid "Post Type"
-msgstr "投稿タイプ"
-
-#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:108
-msgid "Type related post where is displayed"
-msgstr "関連するページとして表示する投稿タイプ"
-
-#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:113
-msgid "Only the same type"
-msgstr "同じ投稿タイプのみ"
-
-#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:116
-msgid "Show only the same type"
-msgstr "同じ投稿タイプのみ表示する"
-
-#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:122
-msgid "Default Image URL"
-msgstr "デフォルト画像"
-
-#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:123
-msgid "Default image in case there is no image in the post."
-msgstr "ページに画像が存在しない場合のデフォルトイメージを設定します"
-
-#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:139
-msgid "Setting: Style"
-msgstr "スタイル設定"
-
-#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:142
-msgid "Set Class/Tag"
-msgstr "Class/Tag"
-
-#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:144
-#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:145
-msgid "Container Class"
-msgstr "コンテナClass"
-
-#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:146
-msgid "Heading Tag"
-msgstr "見出しTag"
-
-#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:160
-#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:161
-msgid "Heading Class"
-msgstr "見出しClass"
-
-#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:162
-#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:163
-msgid "Grouping Class"
-msgstr "グループ化Class"
-
-#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:164
-#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:165
-msgid "Element Class"
-msgstr "ページClass"
-
-#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:171
-msgid "CSS Custom"
-msgstr "CSSカスタム"
-
-#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:172
-msgid "Edit CSS directly"
-msgstr "CSSを直接編集します"
-
-#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:176
-msgid "Use following css"
-msgstr "次のCSSを適用"
-
-#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:191
-msgid "Preview"
-msgstr "プレビュー"
-
-#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:193
-msgid "Display on Browser"
-msgstr "ブラウザ表示"
-
-#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/admin-relatedp.php:195
-msgid "Output HTML"
-msgstr "出力HTML"
-
-#: Users/satohru/Dropbox/Dev/git/wordpress/wp-content/plugins/relatedpages/parts/related_pages.php:29
-msgid "There is no related pages."
-msgstr "関連するページはありません。"
-
-#. Description of the plugin
-msgid "Related Pages plugin"
-msgstr "関連ページを表示するプラグイン"

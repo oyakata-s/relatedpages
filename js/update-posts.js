@@ -10,7 +10,7 @@ jQuery(document).ready(function($) {
 	 * アップデートボタン
 	 */
 	$('#relatedp_update_posts').click(function() {
-		$(this).attr('value', updating_dlg);
+		$(this).attr('value', relatedp_update.updating_dlg);
 		$(this).prop('disabled', true);
 		$(this).addClass('updating');
 		$('#update_posts .update_status').show();
@@ -27,9 +27,9 @@ jQuery(document).ready(function($) {
 
 		$.post(ajaxurl, query, function(data) {
 			console.log(data);
-			$('#relatedp_update_posts').attr('value', updated_dlg);
+			$('#relatedp_update_posts').attr('value', relatedp_update.updated_dlg);
 			$('#relatedp_update_posts').removeClass('updating');
-			$('#update_posts .update_status').html('<i class="fa fa-check-circle" aria-hidden="true"></i>&nbsp;' + data.total + updated_msg);
+			$('#update_posts .update_status').html('<i class="fa fa-check-circle" aria-hidden="true"></i>&nbsp;' + data.total + relatedp_update.updated_msg);
 		});
 	}
 

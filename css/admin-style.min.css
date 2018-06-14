@@ -1,0 +1,13 @@
+@charset "UTF-8";input[type=text],input[type=number]{width:90%}textarea{width:90%}fieldset>label{width:100px;white-space:nowrap}
+label+input[type=text],label+input[type=password]{width:50%}.form-table td{width:80%}#settings-tab{display:flex;margin-bottom:0;border-bottom:1px solid #aaa}
+#settings-tab li{flex:1;margin:0 4px -1px;border:1px solid #ccc;border-bottom:1px solid #aaa}#settings-tab li.active{border-top:1px solid #aaa;border-right:1px solid #aaa;border-bottom:1px solid #f5f5f5;border-left:1px solid #aaa;background-color:#f5f5f5}
+#settings-tab li a{display:block;padding:1.0rem 2.0rem;color:#333;font-size:1.2em;text-decoration:none;text-align:center}#settings-tab li a:focus{box-shadow:none}
+#tab-contents{padding:1.0rem 2.0rem;border:1px solid #aaa;border-top:0;background-color:#f5f5f5;box-sizing:border-box}#tab-contents .tab-content{display:none}
+#tab-contents .tab-content.active{display:block}@keyframes updating{0%{opacity:1}50%{opacity:.5}100%{opacity:1}}#update_posts .update_status{display:none}
+#feature_type .description{display:none}#relatedp_keyphrase:checked ~ .description.keyphrase{display:block}#relatedp_parse:checked ~ .description.parse{display:block}
+#relatedp_update_posts.updating{animation:updating 2s ease-in-out infinite}#media-upload .btn-control{margin:10px 0}#media{position:relative;width:auto;max-width:320px;height:240px;margin-top:1.0rem;border:3px solid #ccc;border-radius:5px;text-align:center;overflow:hidden}
+#media img{width:auto;height:100%}#media p{position:absolute;top:0;bottom:0;left:0;width:100%;height:1.0em;margin:auto;color:#ccc}#style-set label{width:200px}
+#style-set input[type=text]{width:50%}#style-set select{width:50%}#preview .output{margin-bottom:2.0rem;padding:5px 10px;background-color:#fff;box-shadow:0 0 7px -2px #333 inset;box-sizing:border-box}
+#preview .source{width:100%;margin-bottom:1.0rem;padding:10px;box-shadow:0 1px 5px -2px #333 inset;box-sizing:border-box;overflow-x:scroll}#preview h3{padding-left:0;border-left:none}
+#preview h4{margin:1.0em}#preview pre{margin:0}#preview .code{display:block;background-color:transparent}#preview .hidden{display:block!important}.shortcode_table{margin:1.0rem 0;border:solid 1px #333;border-collapse:collapse}
+.shortcode_table th,.shortcode_table td{border:solid 1px #333}.shortcode_table th{width:auto;padding:10px;background-color:#ccc;text-align:center}.shortcode_table td{width:auto}

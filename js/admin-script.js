@@ -10,8 +10,27 @@ jQuery(document).ready(function($) {
 	var css_code = $('#relatedp_css_custom').val();
 	var css = '<style>' + css_code + '</style>';
 	var html = outputHtml();
-	$('#preview .code').html(esc_html(html));
+	// $('#preview .code').html(esc_html(html));
 	$('#preview .output').html(css + html);
+
+	/*
+	 * タブ切替
+	 */
+	$('#settings-tab li').on('click', 'a', function() {
+		var index = $('#settings-tab li a').index(this);
+
+		$('#settings-tab li').each(function() {
+			$(this).removeClass('active');
+		});
+		$('#tab-contents .tab-content').each(function() {
+			$(this).removeClass('active');
+		});
+
+		$(this).parent().addClass('active');
+		$('#tab-contents .tab-content').eq(index).addClass('active')
+
+		return false;
+	});
 
 	// 抽出方法を変えたら自動設定を無効にする
 	// 自動設定をしても保存前の状態で実行されるので
@@ -49,16 +68,16 @@ jQuery(document).ready(function($) {
 	 * プレビューを変更する
 	 */
 	function changePreview() {
-		container_class = $('#relatedp_container_class').val();
-		heading_tag = $('#relatedp_heading_tag').val();
-		heading_class = $('#relatedp_heading_class').val();
-		heading_text = $('#relatedp_heading_text').val();
-		group_class = $('#relatedp_grouping_class').val();
-		element_class = $('#relatedp_element_class').val();
-		page_cnt = $('#relatedp_number_post').val();
+		relatedp_update.container_class = $('#relatedp_container_class').val();
+		relatedp_update.heading_tag = $('#relatedp_heading_tag').val();
+		relatedp_update.heading_class = $('#relatedp_heading_class').val();
+		relatedp_update.heading_text = $('#relatedp_heading_text').val();
+		relatedp_update.group_class = $('#relatedp_grouping_class').val();
+		relatedp_update.element_class = $('#relatedp_element_class').val();
+		relatedp_update.page_cnt = $('#relatedp_number_post').val();
 
 		html = outputHtml();
-		$('#preview .code').html(esc_html(html));
+		// $('#preview .code').html(esc_html(html));
 		$('#preview .output').html(css + html);
 	}
 
@@ -67,14 +86,14 @@ jQuery(document).ready(function($) {
 	 */
 	function outputHtml() {
 		var html = '';
-		html += '<div id="related_pages_container" class="' + container_class + '">\n';
-		html += '  <' + heading_tag + ' class="related_pages_title ' + heading_class + '">';
-		html += heading_text + '</' + heading_tag + '>\n';
-		html += '  <div class="related_pages ' + group_class + '">\n';
-		for (var i=0; i<page_cnt; i++) {
-			html += '    <a class="related_page ' + element_class + '" href="#">\n';
-			html += '      <div class="thumbnail" style="background-image:url(' + noimage_url + ');"></div>\n';
-			html += '      <p class="related_page_title">Page Title</p>\n';
+		html += '<div id="related_pages_container" class="' + relatedp_update.container_class + '">\n';
+		html += '  <' + relatedp_update.heading_tag + ' class="' + relatedp_update.heading_class + '">';
+		html += relatedp_update.heading_text + '</' + relatedp_update.heading_tag + '>\n';
+		html += '  <div class="' + relatedp_update.group_class + '">\n';
+		for (var i=0; i<relatedp_update.page_cnt; i++) {
+			html += '    <a class="post ' + relatedp_update.element_class + '" href="#">\n';
+			html += '      <figure class="post-thumbnail" style="background-image:url(' + relatedp_update.noimage_url + ');"></figure>\n';
+			html += '      <p class="post-title">Page Title</p>\n';
 			html += '    </a>\n';
 		}
 		html += '  </div>\n';
